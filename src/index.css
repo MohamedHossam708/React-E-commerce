@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    @apply flex flex-wrap px-4 py-8 items-center
+}
+.btn{
+    @apply px-4 py-2 w-full rounded-lg text-white bg-emerald-700
+}
+
+.product .btn
+{
+transition: transform 1s , opacity 1s;
+transform: translateY(100%);
+opacity: 0;
+}
+.product:hover .btn
+{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.category-image{
+    height: 200px;
+}
+
+.nav a.active{
+    color: green;
+    font-weight: 700;
+    
+}
