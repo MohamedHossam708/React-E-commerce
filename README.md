@@ -1,3 +1,5 @@
+link for Demo : https://cheerful-tapioca-8f8575.netlify.app/
+
 Medium-Sized React and Vite Project
 
 This is a front-end project built using React and Vite. It's a fully responsive medium-sized project with features such as Stripe payment integration and I used  Context to share data between components. The project also utilizes TanStack (React-Query) to handle data fetching in some components
